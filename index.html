@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>⚽ Penalty Shootout Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+
+    <!-- Game Title -->
+    <h1 class="game-title">⚽ Football Penalty Shootout ⚽</h1>
+
+    <!-- Message Area -->
+    <div id="message" class="message">
+      Choose a direction to shoot your penalty!
+    </div>
+
+    <div class="goal-area">
+         <div id="goalkeeper"></div>
+    </div>
+
+    <!-- Buttons for Direction -->
+    <div class="buttons">
+      <button id="left">Left</button>
+      <button id="center">Center</button>
+      <button id="right">Right</button>
+    </div>
+
+    <!-- Score Display -->
+    <div class="scoreboard">
+      <p>Shots Taken: <span id="shots">0</span> / 5</p>
+      <p>Goals Scored: <span id="score">0</span></p>
+    </div>
+
+    <!-- Restart Button (Hidden Initially) -->
+    <button id="restart" class="restart-btn" style="display: none;">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Fireworks Container -->
+<div id="fireworks-container"></div>
+
+</body>
+</html>
